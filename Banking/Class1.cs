@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Banking
+﻿namespace Micky5991.Banking
 {
     public class Class1
     {
