@@ -2,15 +2,10 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-
         <IsPackable>false</IsPackable>
-
-        <AssemblyName>Micky5991.Banking.Test</AssemblyName>
-
-        <RootNamespace>Micky5991.Banking.Test</RootNamespace>
-
+        <AssemblyName>Micky5991.Banking.Tests</AssemblyName>
+        <RootNamespace>Micky5991.Banking.Tests</RootNamespace>
         <LangVersion>8</LangVersion>
-
         <Nullable>enable</Nullable>
     </PropertyGroup>
 

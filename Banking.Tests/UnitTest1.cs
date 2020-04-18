@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Micky5991.Banking.Test
+namespace Micky5991.Banking.Tests
 {
     [TestClass]
     public class UnitTest1
