@@ -18,11 +18,6 @@ namespace Micky5991.Banking.Interfaces
         event EventHandler? Disposed;
 
         /// <summary>
-        /// Gets the instance to the identifier of this <see cref="IBankAccount"/> in the database.
-        /// </summary>
-        object? DatabaseIdentifier { get; }
-
-        /// <summary>
         /// Gets the human readable and display identifier of this <see cref="IBankAccount"/>.
         /// </summary>
         string Identifier { get; }
