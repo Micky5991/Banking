@@ -8,6 +8,7 @@
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Micky5991.Banking</Title>
+        <Description>General purpose banking framework with a central ledger</Description>
         <Authors>Micky5991</Authors>
         <Copyright>2020 Micky5991</Copyright>
         <PackageProjectUrl>https://github.com/Micky5991/Inventory</PackageProjectUrl>
