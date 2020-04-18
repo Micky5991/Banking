@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using JetBrains.Annotations;
 using Micky5991.Banking.Data;
@@ -26,13 +25,6 @@ namespace Micky5991.Banking.Interfaces
         /// Gets the current balance of this <see cref="IBankAccount"/>.
         /// </summary>
         decimal Balance { get; }
-
-        /// <summary>
-        /// Returns an unordered list of <see cref="BankAccountTransaction"/> that manipulated the balance of this <see cref="IBankAccount"/>.
-        /// </summary>
-        /// <param name="transactionLimit">The maximum amount of transactions that should be returned.</param>
-        /// <returns>Collection of <see cref="BankAccountTransaction"/> with a length limit of <paramref name="transactionLimit"/>.</returns>
-        ICollection<BankAccountTransaction> GetTransactions(int transactionLimit = 50);
 
         /// <summary>
         /// Withdraws (reduces <see cref="Balance"/>) the given <see cref="amount"/> from this <see cref="IBankAccount"/>.
