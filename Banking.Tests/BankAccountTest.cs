@@ -1,4 +1,5 @@
 using System;
+using Micky5991.Banking.AggregatedDependencies;
 using Micky5991.Banking.Entities;
 using Micky5991.Banking.Extensions;
 using Micky5991.Banking.Interfaces;
@@ -12,6 +13,8 @@ namespace Micky5991.Banking.Tests
         protected IServiceProvider? ServiceProvider;
 
         protected IBankAccountFactory? BankAccountFactory;
+
+        protected AggregatedBankAccountDependencies? BankAccountServices;
 
         protected Mock<IBankAccountFactory>? BankAccountFactoryMock;
 
@@ -34,6 +37,8 @@ namespace Micky5991.Banking.Tests
         {
             var serviceCollection = new ServiceCollection();
 
+            serviceCollection.AddDefaultAggregatedBankingDependencies();
+
             if (this.BankAccountFactoryMock == null)
             {
                 serviceCollection.AddDefaultBankAccountFactory();
@@ -51,6 +56,7 @@ namespace Micky5991.Banking.Tests
             this.ServiceProvider = serviceCollection.BuildServiceProvider();
 
             this.BankAccountFactory = this.ServiceProvider.GetRequiredService<IBankAccountFactory>();
+            this.BankAccountServices = this.ServiceProvider.GetRequiredService<AggregatedBankAccountDependencies>();
 
             if (this.BankAccountFactory.CreateBankAccount("account", 100) is BankAccount bankAccount)
             {
