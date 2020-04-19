@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using Micky5991.Banking.Entities;
 using Micky5991.Banking.Interfaces;
 
@@ -6,6 +7,7 @@ namespace Micky5991.Banking.AggregatedDependencies
     /// <summary>
     /// Container for all <see cref="BankAccount"/> dependencies.
     /// </summary>
+    [UsedImplicitly]
     public class AggregatedBankAccountDependencies
     {
         /// <summary>
