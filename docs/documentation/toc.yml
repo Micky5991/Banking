@@ -1,0 +1,8 @@
+- name: Introduction
+  href: index.md
+- name: Getting started
+  href: Installation.md
+- name: Entities
+  items:
+      - name: BankAccount
+        href: BankAccount.md
