@@ -1,4 +1,5 @@
 using System;
+using Micky5991.Banking.Entities;
 using Micky5991.Banking.Extensions;
 using Micky5991.Banking.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,6 +14,9 @@ namespace Micky5991.Banking.Tests
         protected IBankAccountFactory? BankAccountFactory;
 
         protected Mock<IBankAccountFactory>? BankAccountFactoryMock;
+
+        protected BankAccount? BankAccountWithBalance;
+        protected BankAccount? BankAccountNoBalance;
 
         public virtual void Setup()
         {
@@ -47,6 +51,16 @@ namespace Micky5991.Banking.Tests
             this.ServiceProvider = serviceCollection.BuildServiceProvider();
 
             this.BankAccountFactory = this.ServiceProvider.GetRequiredService<IBankAccountFactory>();
+
+            if (this.BankAccountFactory.CreateBankAccount(100, "account") is BankAccount bankAccount)
+            {
+                this.BankAccountWithBalance = bankAccount;
+            }
+
+            if (this.BankAccountFactory.CreateBankAccount(0, "account-nobalance") is BankAccount noBalanceAccount)
+            {
+                this.BankAccountNoBalance = noBalanceAccount;
+            }
         }
     }
 }
