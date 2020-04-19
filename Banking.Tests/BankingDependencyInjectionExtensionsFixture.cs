@@ -60,32 +60,38 @@ namespace Micky5991.Banking.Tests
         [TestMethod]
         public void AddDefaultBankingDependenciesRegistersRightServices()
         {
-            BankingDependencyInjectionExtensions.AddDefaultBankingDependencies(this.serviceCollection!);
+            var result = BankingDependencyInjectionExtensions.AddDefaultBankingDependencies(this.serviceCollection!);
 
             this.BuildServiceProvider();
 
             this.serviceProvider.GetRequiredService<AggregatedBankAccountDependencies>().Should().NotBeNull();
             this.serviceProvider.GetRequiredService<IBankAccountFactory>().Should().NotBeNull(); // TODO: Add actual implementation type.
+
+            Assert.AreSame(result,this.serviceCollection);
         }
 
         [TestMethod]
         public void AddDefaultAggregatedBankingDependenciesRegistersRightService()
         {
-            BankingDependencyInjectionExtensions.AddDefaultAggregatedBankingDependencies(this.serviceCollection!);
+            var result = BankingDependencyInjectionExtensions.AddDefaultAggregatedBankingDependencies(this.serviceCollection!);
 
             this.BuildServiceProvider();
 
             this.serviceProvider.GetRequiredService<AggregatedBankAccountDependencies>().Should().NotBeNull();
+
+            Assert.AreSame(result,this.serviceCollection);
         }
 
         [TestMethod]
         public void AddDefaultBankAccountFactoryRegistersRightService()
         {
-            BankingDependencyInjectionExtensions.AddDefaultBankAccountFactory(this.serviceCollection!);
+            var result = BankingDependencyInjectionExtensions.AddDefaultBankAccountFactory(this.serviceCollection!);
 
             this.BuildServiceProvider();
 
             this.serviceProvider.GetRequiredService<IBankAccountFactory>().Should().NotBeNull(); // TODO: Add actual implementation type.
+
+            Assert.AreSame(result,this.serviceCollection);
         }
 
     }
