@@ -12,8 +12,8 @@ namespace Micky5991.Banking.Entities
         /// </summary>
         /// <param name="identifier">Human readable identifier of this bankaccount.</param>
         /// <param name="balance">Initial balance this <see cref="BankAccount"/> should have.</param>
-        /// <param name="dependencies">Instance of the <see cref="BankAccountAggregatedDependencies"/> this <see cref="BankAccount"/> needs.</param>
-        public BankAccount(string identifier, decimal balance, BankAccountAggregatedDependencies dependencies)
+        /// <param name="dependencies">Instance of the <see cref="AggregatedBankAccountDependencies"/> this <see cref="BankAccount"/> needs.</param>
+        public BankAccount(string identifier, decimal balance, AggregatedBankAccountDependencies dependencies)
         {
             this.Identifier = identifier;
             this.Balance = balance;

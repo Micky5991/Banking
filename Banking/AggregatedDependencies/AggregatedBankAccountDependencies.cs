@@ -2,9 +2,9 @@ using Micky5991.Banking.Interfaces;
 
 namespace Micky5991.Banking.AggregatedDependencies
 {
-    public class BankAccountAggregatedDependencies
+    public class AggregatedBankAccountDependencies
     {
-        public BankAccountAggregatedDependencies(IBankAccountTransactionRepository transactionRepository)
+        public AggregatedBankAccountDependencies(IBankAccountTransactionRepository transactionRepository)
         {
             this.TransactionRepository = transactionRepository;
         }

@@ -53,7 +53,7 @@ namespace Micky5991.Banking.Interfaces
         bool TryDeposit(decimal amount, string reason, IBankAccount? sender = null);
 
         /// <summary>
-        /// Transfers the given <paramref name="amount"/> from this account to <see cref="targetAccount"/>.
+        /// Transfers the given <paramref name="amount"/> from this account to <paramref name="targetAccount"/>.
         /// </summary>
         /// <param name="targetAccount"><see cref="IBankAccount"/> that should receive the <paramref name="amount"/>.</param>
         /// <param name="amount">Value which should be withdrawn from this account and deposited to <paramref name="targetAccount"/>.</param>
