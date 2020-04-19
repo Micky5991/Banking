@@ -1,0 +1,748 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BankAccount
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BankAccount
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Micky5991.Banking.Entities.BankAccount">
+  
+  
+  <h1 id="Micky5991_Banking_Entities_BankAccount" data-uid="Micky5991.Banking.Entities.BankAccount" class="text-break">Class BankAccount
+  </h1>
+  <div class="markdown level0 summary"><p>Instance of an bank account with a balance.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BankAccount</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a></div>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Micky5991.Banking.Entities.html">Micky5991.Banking.Entities</a></h6>
+  <h6><strong>Assembly</strong>: Micky5991.Banking.dll</h6>
+  <h5 id="Micky5991_Banking_Entities_BankAccount_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BankAccount : IBankAccount, IDisposable, INotifyPropertyChanged</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Micky5991/Banking/new/master/apiSpec/new?filename=Micky5991_Banking_Entities_BankAccount__ctor_System_String_System_Decimal_Micky5991_Banking_AggregatedDependencies_AggregatedBankAccountDependencies_.md&amp;value=---%0Auid%3A%20Micky5991.Banking.Entities.BankAccount.%23ctor(System.String%2CSystem.Decimal%2CMicky5991.Banking.AggregatedDependencies.AggregatedBankAccountDependencies)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Micky5991/Banking/blob/test-actions/Banking/Entities/BankAccount.cs/#L16">View Source</a>
+  </span>
+  <a id="Micky5991_Banking_Entities_BankAccount__ctor_" data-uid="Micky5991.Banking.Entities.BankAccount.#ctor*"></a>
+  <h4 id="Micky5991_Banking_Entities_BankAccount__ctor_System_String_System_Decimal_Micky5991_Banking_AggregatedDependencies_AggregatedBankAccountDependencies_" data-uid="Micky5991.Banking.Entities.BankAccount.#ctor(System.String,System.Decimal,Micky5991.Banking.AggregatedDependencies.AggregatedBankAccountDependencies)">BankAccount(String, Decimal, AggregatedBankAccountDependencies)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Micky5991.Banking.Entities.BankAccount.html">BankAccount</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BankAccount(string identifier, decimal balance, AggregatedBankAccountDependencies dependencies)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>Human readable identifier of this bankaccount.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">balance</span></td>
+        <td><p>Initial balance this <a class="xref" href="Micky5991.Banking.Entities.BankAccount.html">BankAccount</a> should have.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Micky5991.Banking.AggregatedDependencies.AggregatedBankAccountDependencies.html">AggregatedBankAccountDependencies</a></td>
+        <td><span class="parametername">dependencies</span></td>
+        <td><p>Instance of the <a class="xref" href="Micky5991.Banking.AggregatedDependencies.AggregatedBankAccountDependencies.html">AggregatedBankAccountDependencies</a> this <a class="xref" href="Micky5991.Banking.Entities.BankAccount.html">BankAccount</a> needs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Micky5991/Banking/new/master/apiSpec/new?filename=Micky5991_Banking_Entities_BankAccount_Balance.md&amp;value=---%0Auid%3A%20Micky5991.Banking.Entities.BankAccount.Balance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Micky5991/Banking/blob/test-actions/Banking/Entities/BankAccount.Properties.cs/#L21">View Source</a>
+  </span>
+  <a id="Micky5991_Banking_Entities_BankAccount_Balance_" data-uid="Micky5991.Banking.Entities.BankAccount.Balance*"></a>
+  <h4 id="Micky5991_Banking_Entities_BankAccount_Balance" data-uid="Micky5991.Banking.Entities.BankAccount.Balance">Balance</h4>
+  <div class="markdown level1 summary"><p>Gets the current balance of this <a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal Balance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Micky5991/Banking/new/master/apiSpec/new?filename=Micky5991_Banking_Entities_BankAccount_Identifier.md&amp;value=---%0Auid%3A%20Micky5991.Banking.Entities.BankAccount.Identifier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Micky5991/Banking/blob/test-actions/Banking/Entities/BankAccount.Properties.cs/#L18">View Source</a>
+  </span>
+  <a id="Micky5991_Banking_Entities_BankAccount_Identifier_" data-uid="Micky5991.Banking.Entities.BankAccount.Identifier*"></a>
+  <h4 id="Micky5991_Banking_Entities_BankAccount_Identifier" data-uid="Micky5991.Banking.Entities.BankAccount.Identifier">Identifier</h4>
+  <div class="markdown level1 summary"><p>Gets the human readable and display identifier of this <a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Identifier { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Micky5991/Banking/new/master/apiSpec/new?filename=Micky5991_Banking_Entities_BankAccount_Dispose.md&amp;value=---%0Auid%3A%20Micky5991.Banking.Entities.BankAccount.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Micky5991/Banking/blob/test-actions/Banking/Entities/BankAccount.cs/#L26">View Source</a>
+  </span>
+  <a id="Micky5991_Banking_Entities_BankAccount_Dispose_" data-uid="Micky5991.Banking.Entities.BankAccount.Dispose*"></a>
+  <h4 id="Micky5991_Banking_Entities_BankAccount_Dispose" data-uid="Micky5991.Banking.Entities.BankAccount.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Micky5991/Banking/new/master/apiSpec/new?filename=Micky5991_Banking_Entities_BankAccount_OnPropertyChanged_System_String_.md&amp;value=---%0Auid%3A%20Micky5991.Banking.Entities.BankAccount.OnPropertyChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Micky5991/Banking/blob/test-actions/Banking/Entities/BankAccount.Properties.cs/#L41">View Source</a>
+  </span>
+  <a id="Micky5991_Banking_Entities_BankAccount_OnPropertyChanged_" data-uid="Micky5991.Banking.Entities.BankAccount.OnPropertyChanged*"></a>
+  <h4 id="Micky5991_Banking_Entities_BankAccount_OnPropertyChanged_System_String_" data-uid="Micky5991.Banking.Entities.BankAccount.OnPropertyChanged(System.String)">OnPropertyChanged(String)</h4>
+  <div class="markdown level1 summary"><p>Invocator for the interface <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NotifyPropertyChangedInvocator]
+protected virtual void OnPropertyChanged(string propertyName = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td><p>Name of the property that has been changed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Micky5991/Banking/new/master/apiSpec/new?filename=Micky5991_Banking_Entities_BankAccount_TryDeposit_System_Decimal_System_String_Micky5991_Banking_Interfaces_IBankAccount_.md&amp;value=---%0Auid%3A%20Micky5991.Banking.Entities.BankAccount.TryDeposit(System.Decimal%2CSystem.String%2CMicky5991.Banking.Interfaces.IBankAccount)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Micky5991/Banking/blob/test-actions/Banking/Entities/BankAccount.cs/#L38">View Source</a>
+  </span>
+  <a id="Micky5991_Banking_Entities_BankAccount_TryDeposit_" data-uid="Micky5991.Banking.Entities.BankAccount.TryDeposit*"></a>
+  <h4 id="Micky5991_Banking_Entities_BankAccount_TryDeposit_System_Decimal_System_String_Micky5991_Banking_Interfaces_IBankAccount_" data-uid="Micky5991.Banking.Entities.BankAccount.TryDeposit(System.Decimal,System.String,Micky5991.Banking.Interfaces.IBankAccount)">TryDeposit(Decimal, String, IBankAccount)</h4>
+  <div class="markdown level1 summary"><p>Deposits (increases <a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html#Micky5991_Banking_Interfaces_IBankAccount_Balance">Balance</a>) the given <code data-dev-comment-type="paramref" class="paramref">amount</code> to this <a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a>.
+If <code data-dev-comment-type="paramref" class="paramref">sender</code> is null, this <code data-dev-comment-type="paramref" class="paramref">amount</code> will be voided.
+The parameter <code data-dev-comment-type="paramref" class="paramref">sender</code> is only an informative value and should be used for persistance (e.g. <a class="xref" href="Micky5991.Banking.Data.BankAccountTransaction.html">BankAccountTransaction</a> to remember to opposite side.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryDeposit(decimal amount, string reason, IBankAccount sender = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>Value that should be added to <a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html#Micky5991_Banking_Interfaces_IBankAccount_Balance">Balance</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason why this value was deposited.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a></td>
+        <td><span class="parametername">sender</span></td>
+        <td><p>Reference to the <a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a> that sent this balance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if transaction was accepted, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">amount</code> is 0 or lower.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">reason</code> is null, empty or whitespace.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Micky5991/Banking/new/master/apiSpec/new?filename=Micky5991_Banking_Entities_BankAccount_TryTransfer_Micky5991_Banking_Interfaces_IBankAccount_System_Decimal_System_String_.md&amp;value=---%0Auid%3A%20Micky5991.Banking.Entities.BankAccount.TryTransfer(Micky5991.Banking.Interfaces.IBankAccount%2CSystem.Decimal%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Micky5991/Banking/blob/test-actions/Banking/Entities/BankAccount.cs/#L44">View Source</a>
+  </span>
+  <a id="Micky5991_Banking_Entities_BankAccount_TryTransfer_" data-uid="Micky5991.Banking.Entities.BankAccount.TryTransfer*"></a>
+  <h4 id="Micky5991_Banking_Entities_BankAccount_TryTransfer_Micky5991_Banking_Interfaces_IBankAccount_System_Decimal_System_String_" data-uid="Micky5991.Banking.Entities.BankAccount.TryTransfer(Micky5991.Banking.Interfaces.IBankAccount,System.Decimal,System.String)">TryTransfer(IBankAccount, Decimal, String)</h4>
+  <div class="markdown level1 summary"><p>Transfers the given <code data-dev-comment-type="paramref" class="paramref">amount</code> from this account to <code data-dev-comment-type="paramref" class="paramref">targetAccount</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryTransfer(IBankAccount targetAccount, decimal amount, string reason)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a></td>
+        <td><span class="parametername">targetAccount</span></td>
+        <td><p><a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a> that should receive the <code data-dev-comment-type="paramref" class="paramref">amount</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>Value which should be withdrawn from this account and deposited to <code data-dev-comment-type="paramref" class="paramref">targetAccount</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason why this <code data-dev-comment-type="paramref" class="paramref">amount</code> was transferred.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true of the transfer was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">targetAccount</code> or <code data-dev-comment-type="paramref" class="paramref">reason</code> is null, empty or whitespace.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">amount</code> is 0 or lower.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Micky5991/Banking/new/master/apiSpec/new?filename=Micky5991_Banking_Entities_BankAccount_TryTransfer_Micky5991_Banking_Interfaces_IBankAccount_System_Decimal_System_String_System_String_.md&amp;value=---%0Auid%3A%20Micky5991.Banking.Entities.BankAccount.TryTransfer(Micky5991.Banking.Interfaces.IBankAccount%2CSystem.Decimal%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Micky5991/Banking/blob/test-actions/Banking/Entities/BankAccount.cs/#L50">View Source</a>
+  </span>
+  <a id="Micky5991_Banking_Entities_BankAccount_TryTransfer_" data-uid="Micky5991.Banking.Entities.BankAccount.TryTransfer*"></a>
+  <h4 id="Micky5991_Banking_Entities_BankAccount_TryTransfer_Micky5991_Banking_Interfaces_IBankAccount_System_Decimal_System_String_System_String_" data-uid="Micky5991.Banking.Entities.BankAccount.TryTransfer(Micky5991.Banking.Interfaces.IBankAccount,System.Decimal,System.String,System.String)">TryTransfer(IBankAccount, Decimal, String, String)</h4>
+  <div class="markdown level1 summary"><p>Transfers the given <code data-dev-comment-type="paramref" class="paramref">amount</code> from this account to <code data-dev-comment-type="paramref" class="paramref">targetAccount</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryTransfer(IBankAccount targetAccount, decimal amount, string reasonOnSourceAccount, string reasonOnTargetAccount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a></td>
+        <td><span class="parametername">targetAccount</span></td>
+        <td><p><a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a> that should receive the <code data-dev-comment-type="paramref" class="paramref">amount</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>Value which should be withdrawn from this account and deposited to <code data-dev-comment-type="paramref" class="paramref">targetAccount</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reasonOnSourceAccount</span></td>
+        <td><p>Reason why this transaction was executed that will appear in the transaction history of this <a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reasonOnTargetAccount</span></td>
+        <td><p>Reason why this transaction was executed that will appear in the transaction history of <code data-dev-comment-type="paramref" class="paramref">targetAccount</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true of the transfer was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">targetAccount</code>, <code data-dev-comment-type="paramref" class="paramref">reasonOnSourceAccount</code> or <code data-dev-comment-type="paramref" class="paramref">reasonOnTargetAccount</code> is null, empty or whitespace.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">amount</code> is 0 or lower.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Micky5991/Banking/new/master/apiSpec/new?filename=Micky5991_Banking_Entities_BankAccount_TryWithdraw_System_Decimal_System_String_Micky5991_Banking_Interfaces_IBankAccount_.md&amp;value=---%0Auid%3A%20Micky5991.Banking.Entities.BankAccount.TryWithdraw(System.Decimal%2CSystem.String%2CMicky5991.Banking.Interfaces.IBankAccount)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Micky5991/Banking/blob/test-actions/Banking/Entities/BankAccount.cs/#L32">View Source</a>
+  </span>
+  <a id="Micky5991_Banking_Entities_BankAccount_TryWithdraw_" data-uid="Micky5991.Banking.Entities.BankAccount.TryWithdraw*"></a>
+  <h4 id="Micky5991_Banking_Entities_BankAccount_TryWithdraw_System_Decimal_System_String_Micky5991_Banking_Interfaces_IBankAccount_" data-uid="Micky5991.Banking.Entities.BankAccount.TryWithdraw(System.Decimal,System.String,Micky5991.Banking.Interfaces.IBankAccount)">TryWithdraw(Decimal, String, IBankAccount)</h4>
+  <div class="markdown level1 summary"><p>Withdraws (reduces <a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html#Micky5991_Banking_Interfaces_IBankAccount_Balance">Balance</a>) the given <code data-dev-comment-type="paramref" class="paramref">amount</code> from this <a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a>.
+If <code data-dev-comment-type="paramref" class="paramref">receiver</code> is null, this <code data-dev-comment-type="paramref" class="paramref">amount</code> will be voided.
+The parameter <code data-dev-comment-type="paramref" class="paramref">receiver</code> is only an informative value and should be used for persistance (e.g. <a class="xref" href="Micky5991.Banking.Data.BankAccountTransaction.html">BankAccountTransaction</a> to remember to opposite side.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryWithdraw(decimal amount, string reason, IBankAccount receiver = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>Value that should be subtracted from <a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html#Micky5991_Banking_Interfaces_IBankAccount_Balance">Balance</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason why this value was withdrawn.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a></td>
+        <td><span class="parametername">receiver</span></td>
+        <td><p>Reference to the <a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a> that receives the balance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if transaction was accepted, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">amount</code> is 0 or lower.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">reason</code> is null, empty or whitespace.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Micky5991/Banking/new/master/apiSpec/new?filename=Micky5991_Banking_Entities_BankAccount_Disposed.md&amp;value=---%0Auid%3A%20Micky5991.Banking.Entities.BankAccount.Disposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Micky5991/Banking/blob/test-actions/Banking/Entities/BankAccount.cs/#L23">View Source</a>
+  </span>
+  <h4 id="Micky5991_Banking_Entities_BankAccount_Disposed" data-uid="Micky5991.Banking.Entities.BankAccount.Disposed">Disposed</h4>
+  <div class="markdown level1 summary"><p>Event that will be invoked when this instance has been disposed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler Disposed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Micky5991/Banking/new/master/apiSpec/new?filename=Micky5991_Banking_Entities_BankAccount_PropertyChanged.md&amp;value=---%0Auid%3A%20Micky5991.Banking.Entities.BankAccount.PropertyChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Micky5991/Banking/blob/test-actions/Banking/Entities/BankAccount.Properties.cs/#L15">View Source</a>
+  </span>
+  <h4 id="Micky5991_Banking_Entities_BankAccount_PropertyChanged" data-uid="Micky5991.Banking.Entities.BankAccount.PropertyChanged">PropertyChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ComponentModel.PropertyChangedEventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Micky5991.Banking.Interfaces.IBankAccount.html">IBankAccount</a>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Micky5991/Banking/new/master/apiSpec/new?filename=Micky5991_Banking_Entities_BankAccount.md&amp;value=---%0Auid%3A%20Micky5991.Banking.Entities.BankAccount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Micky5991/Banking/blob/test-actions/Banking/Entities/BankAccount.Properties.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

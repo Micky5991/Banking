@@ -1,0 +1,308 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/Banking/Banking/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Micky5991.Banking.AggregatedDependencies.AggregatedBankAccountDependencies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Micky5991.Banking.AggregatedDependencies.AggregatedBankAccountDependencies.html",
+          "hash": "jyqLDbVlA++9Gi3Zaa2RVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Micky5991.Banking.AggregatedDependencies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Micky5991.Banking.AggregatedDependencies.html",
+          "hash": "/PPr0o3FKxC1VjuBamqlTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Micky5991.Banking.Data.BankAccountTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Micky5991.Banking.Data.BankAccountTransaction.html",
+          "hash": "pPNmUVUdVG0r17Hvyser+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Micky5991.Banking.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Micky5991.Banking.Data.html",
+          "hash": "o0BVCmvlGv7XvPKCmrqhvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Micky5991.Banking.Entities.BankAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Micky5991.Banking.Entities.BankAccount.html",
+          "hash": "FESgjL1Ose09KsdntxShsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Micky5991.Banking.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Micky5991.Banking.Entities.html",
+          "hash": "ZtYiDgkgH9TWRHB+Y1TQfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Micky5991.Banking.Extensions.BankingDependencyInjectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Micky5991.Banking.Extensions.BankingDependencyInjectionExtensions.html",
+          "hash": "HvAIBtVJhp+zTgMZPBBUfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Micky5991.Banking.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Micky5991.Banking.Extensions.html",
+          "hash": "dw6mVAdtEEF1RQYsExQbow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Micky5991.Banking.Interfaces.IBankAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Micky5991.Banking.Interfaces.IBankAccount.html",
+          "hash": "6PxQeTJV06j7WT+ewNkN0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Micky5991.Banking.Interfaces.IBankAccountFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Micky5991.Banking.Interfaces.IBankAccountFactory.html",
+          "hash": "rCF05DLBa++lC2a+OFTEeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Micky5991.Banking.Interfaces.IBankAccountTransactionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Micky5991.Banking.Interfaces.IBankAccountTransactionRepository.html",
+          "hash": "gmXvyYgKTqAKtJqcp1ikbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Micky5991.Banking.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Micky5991.Banking.Interfaces.html",
+          "hash": "AtBgSvZqFX0ZOAHX2tddAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "7mErQFh0stdAX5yF/DUoZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "bHGvmWUigF2QbIUbT+oVwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/BankAccount.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/BankAccount.html",
+          "hash": "7VjccoUyfn7aLPwGy9y0MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "documentation/Installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/Installation.html",
+          "hash": "l+ltzn99QIqtx4c2HU5zwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/index.html",
+          "hash": "Rlo/87RIVLh7lb9Rdzy5/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/toc.html",
+          "hash": "EL5fgOcj2TICQ+f9o6rjuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "sqytvr5YsxiiQW0mJLufGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "kTaSiMxcuM5/RKp69GWQ2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 12,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
