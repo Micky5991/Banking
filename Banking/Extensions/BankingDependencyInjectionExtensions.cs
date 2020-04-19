@@ -1,5 +1,6 @@
 using System;
 using Micky5991.Banking.AggregatedDependencies;
+using Micky5991.Banking.Factories;
 using Micky5991.Banking.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -47,7 +48,9 @@ namespace Micky5991.Banking.Extensions
         /// <exception cref="ArgumentNullException"><paramref name="serviceCollection"/> is null.</exception>
         public static IServiceCollection AddDefaultBankAccountFactory(this IServiceCollection serviceCollection)
         {
-            throw new NotImplementedException();
+            serviceCollection.AddTransient<IBankAccountFactory, BankAccountFactory>();
+
+            return serviceCollection;
         }
     }
 }
