@@ -30,7 +30,7 @@ namespace Micky5991.Banking.Tests
             this.BankAccountFactoryMock = null;
         }
 
-        protected void SetupDependencies()
+        protected virtual void SetupDependencies()
         {
             var serviceCollection = new ServiceCollection();
 
