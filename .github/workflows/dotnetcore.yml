@@ -56,9 +56,9 @@ jobs:
     - name: Test
       run: dotnet test --verbosity normal
 
-    - name: Run Mutation Tests
-      working-directory: ./Banking.Tests/
-      run: dotnet stryker
+#    - name: Run Mutation Tests
+#      working-directory: ./Banking.Tests/
+#      run: dotnet stryker
 
     - name: Save NuGet artifact
       if: success() && steps.vars.outputs.is_tag == 'true' && matrix.os == 'ubuntu-latest'
