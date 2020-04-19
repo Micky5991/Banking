@@ -27,7 +27,7 @@ namespace Micky5991.Banking.Interfaces
         decimal Balance { get; }
 
         /// <summary>
-        /// Withdraws (reduces <see cref="Balance"/>) the given <see cref="amount"/> from this <see cref="IBankAccount"/>.
+        /// Withdraws (reduces <see cref="Balance"/>) the given <paramref name="amount"/> from this <see cref="IBankAccount"/>.
         /// If <paramref name="receiver"/> is null, this <paramref name="amount"/> will be voided.
         /// The parameter <paramref name="receiver"/> is only an informative value and should be used for persistance (e.g. <see cref="BankAccountTransaction"/> to remember to opposite side.
         /// </summary>
@@ -64,7 +64,7 @@ namespace Micky5991.Banking.Interfaces
         bool TryTransfer(IBankAccount targetAccount, decimal amount, string reason);
 
         /// <summary>
-        /// Transfers the given <paramref name="amount"/> from this account to <see cref="targetAccount"/>.
+        /// Transfers the given <paramref name="amount"/> from this account to <paramref name="targetAccount"/>.
         /// </summary>
         /// <param name="targetAccount"><see cref="IBankAccount"/> that should receive the <paramref name="amount"/>.</param>
         /// <param name="amount">Value which should be withdrawn from this account and deposited to <paramref name="targetAccount"/>.</param>
